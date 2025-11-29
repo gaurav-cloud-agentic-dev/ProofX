@@ -9,7 +9,7 @@ from backend.blockchain.block import Block
 
 pnconfig = PNConfiguration()
 pnconfig.subscribe_key = 'enter your subscribe key here'
-pnconfig.publish_key = 'enter your publish key here'
+pnconfig.publish_key = 'enter your public key here'
 # pnconfig.uuid = "backend-node"
 pubnub = PubNub(pnconfig)
 
