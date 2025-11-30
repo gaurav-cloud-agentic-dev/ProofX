@@ -46,3 +46,9 @@ a, a:hover {
 input, button {
   color: black;
 }
+
+.ConductTransaction input,
+.ConductTransaction button {
+  margin-bottom: 15px;
+  padding: 10px;
+}

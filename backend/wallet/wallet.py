@@ -40,6 +40,7 @@ class Wallet:
             ec.ECDSA(hashes.SHA256())
         ))
 
+
     def serialize_public_key(self):
         """
         Reset the public key to its serialized version.
